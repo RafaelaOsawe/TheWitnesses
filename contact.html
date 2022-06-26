@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlay">
+    <form onsubmit="event.preventDefault();validateForm()">
+
+        <h1><b>GET IN TOUCH</b></h1>
+
+
+        <p><em>If you want to talk to someone from the LGBTQ+ community about anything - sports, school, family, friends, films, music, books - put in your contact info here and we will get back to soon as soon as possible!</em></p>
+
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your name or nickname">
+        <small class="error"></small>
+
+        <label for="email">Email:</label>
+        <input type="text" id="name" placeholder="Your email">
+        <small class="error"></small>
+
+        <label for="contact number">Contact number:</label>
+        <input type="text" id="name" placeholder="Your contact number">
+        <small class="error"></small>
+
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="What would you like to talk about?" rows="6"></textarea>
+        <small class="error"></small>
+
+        <div class="center">
+            <input type="submit" value="Send Message">
+            <p id="success"></p>
+
+        </div>
+</body>
+</html>
+
